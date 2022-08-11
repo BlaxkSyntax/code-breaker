@@ -1,8 +1,8 @@
 package za.oo.wethinkcode.server;
 
 import io.javalin.Javalin;
+import za.oo.wethinkcode.controller.HandleCodes;
 
-import za.oo.wethinkcode.api.QuoteApiHandler;
 
 public class Server {
     private final Javalin server;
@@ -13,9 +13,7 @@ public class Server {
             config.enableCorsForAllOrigins();
         });
 
-        this.server.get("/quotes", context -> QuoteApiHandler.getAll(context)); 
-        this.server.get("/quote/{id}", context -> QuoteApiHandler.getOne(context)); 
-        this.server.post("/quotes", context -> QuoteApiHandler.create(context)); 
+        this.server.get(HandleCodes.getPath(), context -> HandleCodes.getCodes(context)); 
     }
 
     public void start(int port) {

@@ -1,4 +1,10 @@
-za/oo/wethinkcode/api/QuoteApiHandler.class
-za/oo/wethinkcode/api/QuoteDB.class
-za/oo/wethinkcode/database/TestDatabase.class
+za/oo/wethinkcode/server/Server.class
+za/oo/wethinkcode/database/job/Repo.class
+za/oo/wethinkcode/database/model/Codes.class
+za/oo/wethinkcode/database/service/Table.class
+za/oo/wethinkcode/database/service/Tablor.class
+za/oo/wethinkcode/database/service/Connector.class
+za/oo/wethinkcode/database/orm/Query.class
+za/oo/wethinkcode/controller/HandleCodes.class
 za/oo/wethinkcode/domain/Quote.class
+za/oo/wethinkcode/database/job/Memory.class

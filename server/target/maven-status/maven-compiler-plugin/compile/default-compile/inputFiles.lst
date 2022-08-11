@@ -1,5 +1,10 @@
-/home/black/wethinkcode/wethinkcode/server/src/main/java/za/oo/wethinkcode/api/QuoteDB.java
-/home/black/wethinkcode/wethinkcode/server/src/main/java/za/oo/wethinkcode/domain/Quote.java
-/home/black/wethinkcode/wethinkcode/server/src/main/java/za/oo/wethinkcode/api/QuoteApiHandler.java
-/home/black/wethinkcode/wethinkcode/server/src/main/java/za/oo/wethinkcode/database/TestDatabase.java
-/home/black/wethinkcode/wethinkcode/server/src/main/java/za/oo/wethinkcode/server/Server.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/domain/Quote.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/model/Codes.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/server/Server.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/controller/HandleCodes.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/job/Memory.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/job/Repo.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/orm/Query.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/service/Connector.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/service/Tablor.java
+/home/black/sihle/show-of/code-breaker/server/src/main/java/za/oo/wethinkcode/database/service/Table.java
